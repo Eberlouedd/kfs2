@@ -25,7 +25,7 @@ void kernel_main(void) {
     console_write("\n");
 
     // Demonstrate the stack + print it in a human-friendly way
-    level1(0xDEADBEEFu);
+    level1(0xDEADBEEF);
 
     for (;;) __asm__ __volatile__("hlt");
 }
