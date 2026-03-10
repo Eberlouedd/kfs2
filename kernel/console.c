@@ -21,7 +21,7 @@ void console_clear(void) {
 static void newline(void) {
     g_cursor = (g_cursor / VGA_WIDTH + 1) * VGA_WIDTH;
     if (g_cursor >= VGA_WIDTH * VGA_HEIGHT)
-        g_cursor = 0; // simple wrap (no scrolling yet)
+        g_cursor = 0;
 }
 
 void console_putc(char c) {
