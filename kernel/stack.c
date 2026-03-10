@@ -1,7 +1,6 @@
 #include "include/stack.h"
 #include "include/console.h"
 
-// Provided by boot/boot.asm
 extern unsigned char stack_bottom;
 extern unsigned char stack_top;
 
