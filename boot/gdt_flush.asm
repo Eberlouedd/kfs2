@@ -11,7 +11,6 @@ gdt_flush:
     mov es, ax
     mov fs, ax
     mov gs, ax
-    mov ss, ax
 
     jmp 0x08:.flush
 
